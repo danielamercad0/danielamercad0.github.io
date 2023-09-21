@@ -57,7 +57,7 @@ div {
     height: 54px;
 }
 #third-row .circle {
-    background: #de6868;
+    background-color: #de6868;
 }
 .circle.fancy {
     border-style: dotted;
@@ -66,5 +66,5 @@ div {
     opacity: 0;
 }
 #container .row .green, #container .row .green {
-    background: #6392c0;
+    background-color: #6392c0;
 }
