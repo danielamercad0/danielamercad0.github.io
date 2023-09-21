@@ -62,6 +62,6 @@ div {
 .circle.fancy {
     border-style: dotted;
 }
-:circle {
-    opacity: 0
+#container .row > div:first-child.circle {
+    opacity: 0;
 }
