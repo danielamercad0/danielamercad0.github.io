@@ -62,7 +62,7 @@ div {
 .circle.fancy {
     border-style: dotted;
 }
-#container .row > div:first-child.circle {
+.circle:first-child {
     opacity: 0;
 }
 .green, .fancy {
