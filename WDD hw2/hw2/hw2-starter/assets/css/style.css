@@ -56,6 +56,6 @@ div {
     width: 54px;
     height: 54px;
 }
-#third-row, .circle {
+#third-row, .row, .circle {
     color: #de6868;
  } 
