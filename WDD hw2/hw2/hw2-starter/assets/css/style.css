@@ -59,3 +59,6 @@ div {
 #third-row .circle {
     background-color: #de6868;
 }
+.circle.fancy {
+    border-style: dotted;
+}
