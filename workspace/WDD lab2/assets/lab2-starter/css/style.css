@@ -24,3 +24,6 @@ nav {
 nav li {
     display: inline-block;
 }
+nav a, nav a:visited {
+    color: white;
+}
