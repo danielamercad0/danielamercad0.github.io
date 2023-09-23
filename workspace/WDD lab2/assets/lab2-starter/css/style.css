@@ -27,4 +27,5 @@ nav li {
 nav a, nav a:visited {
     color: white;
     font-size: 18px;
+    text-decoration: none;
 }
