@@ -30,3 +30,6 @@ nav a, nav a:visited {
     text-decoration: none;
     cursor: pointer;
 }
+nav a:hover, nav a:visited:hover {
+    text-decoration: underline;
+}
