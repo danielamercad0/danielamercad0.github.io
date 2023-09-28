@@ -75,7 +75,9 @@ larger when clicked on!*/
 
 /* PROBLEM 10: Add a hover effect such that the text of the
 navigation has an opacity of 1 when hovered over!*/
-/* YOUR CODE HERE */
+.navbar-item:hover {
+    opacity: 1;
+}
 
 /* PROBLEM 11: In one selection, make the follow button, picture
 items, and nav bar items have a pointer cursor */
