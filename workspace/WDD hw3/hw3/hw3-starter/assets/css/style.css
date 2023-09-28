@@ -4,7 +4,17 @@ html, body {
 }
 
 /* PROBLEM 2: Select profile picture and make it round */
-/* YOUR CODE HERE */
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#profile-pic img {
+    width: 100%;
+    height: auto;
+}
 
 /* PROBLEM 3: Flesh our your follow button! 5 px for the
 top and bottom, 30 for the left and right*/
