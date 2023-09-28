@@ -27,7 +27,6 @@ top and bottom, 30 for the left and right*/
 .item {
     width: 120px;
     height: 120px;
-    margin-right: 10px;
 }
 
 .item img {
@@ -37,10 +36,14 @@ top and bottom, 30 for the left and right*/
 }
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
-/* YOUR CODE HERE */
+.item {
+    margin-right: 10px;
+}
 
 /* PROBLEM 6: Create a 10px vertical space between rows */
-/* YOUR CODE HERE */
+.row {
+    margin-bottom: 10px;
+}
 
 /* PROBLEM 7: Add 20px of space between each navigation item */
 /* YOUR CODE HERE */
