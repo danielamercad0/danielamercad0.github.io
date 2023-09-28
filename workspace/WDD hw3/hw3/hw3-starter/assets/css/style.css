@@ -1,5 +1,7 @@
 /* PROBLEM 1: Remove white margin of body, html */
-/* YOUR CODE HERE */
+html, body {
+    margin: 0;
+}
 
 /* PROBLEM 2: Select profile picture and make it round */
 /* YOUR CODE HERE */
