@@ -1,6 +1,6 @@
 /* PROBLEM 1: Remove white margin of body, html */
 html, body {
-    margin: 0;
+    margin: 0px;
 }
 
 /* PROBLEM 2: Select profile picture and make it round */
@@ -16,7 +16,12 @@ html, body {
 
 /* PROBLEM 3: Flesh our your follow button! 5 px for the
 top and bottom, 30 for the left and right*/
-/* YOUR CODE HERE */
+#follow-button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* PROBLEM 4: Turn items into a square, 120x120 px image */
 /* YOUR CODE HERE */
