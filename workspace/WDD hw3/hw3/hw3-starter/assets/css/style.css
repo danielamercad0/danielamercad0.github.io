@@ -24,7 +24,10 @@ top and bottom, 30 for the left and right*/
 }
 
 /* PROBLEM 4: Turn items into a square, 120x120 px image */
-/* YOUR CODE HERE */
+.item img {
+    width: 120px;
+    height: 120px;
+}
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
 /* YOUR CODE HERE */
