@@ -5,8 +5,6 @@ html, body {
 
 /* PROBLEM 2: Select profile picture and make it round */
 #profile-pic {
-    width: 150px;
-    height: 150px;
     border-radius: 50%;
     overflow: hidden;
 }
