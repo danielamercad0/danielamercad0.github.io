@@ -64,7 +64,14 @@ transition period of 0.2 seconds*/
 /* PROBLEM 9: Add a click effect to the follow button, so
 the font becomes size 18 px when clicked on - as a result, the button will become
 larger when clicked on!*/
-/* YOUR CODE HERE */
+#follow-button {
+    font-size: 16px;
+}
+
+#follow-button:active,
+#follow-button:focus {
+    font-size: 18px;
+}
 
 /* PROBLEM 10: Add a hover effect such that the text of the
 navigation has an opacity of 1 when hovered over!*/
