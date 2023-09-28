@@ -53,7 +53,13 @@ top and bottom, 30 for the left and right*/
 /* PROBLEM 8: Create a hover effect, so that items will have
 full opacity when hovered over! It should also have a
 transition period of 0.2 seconds*/
-/* YOUR CODE HERE */
+.item:hover {
+    opacity: 1;
+}
+
+.item {
+    transition: opacity 0.2s ease-in-out;
+}
 
 /* PROBLEM 9: Add a click effect to the follow button, so
 the font becomes size 18 px when clicked on - as a result, the button will become
