@@ -27,7 +27,12 @@ top and bottom, 30 for the left and right*/
 .item {
     width: 120px;
     height: 120px;
-    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
