@@ -81,3 +81,6 @@ navigation has an opacity of 1 when hovered over!*/
 
 /* PROBLEM 11: In one selection, make the follow button, picture
 items, and nav bar items have a pointer cursor */
+#follow-button, .item, .navbar-item {
+    cursor: pointer;
+}
