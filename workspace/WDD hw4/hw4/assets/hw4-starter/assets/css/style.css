@@ -56,8 +56,8 @@ header {
 .image-card-color-overlay {
     position: absolute;
     /* PROBLEM 4: Move the color overlay to cover the image properly */
-    top: 50px;
-    left: 200px;
+    top: 0px;
+    left: 0px;
     /* PROBLEM 5: What should the opacity be when there is no hover? */
     opacity: 0.7;
     transition: 0.3s;
