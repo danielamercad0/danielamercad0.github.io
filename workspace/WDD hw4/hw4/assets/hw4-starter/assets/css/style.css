@@ -82,7 +82,6 @@ header {
 
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
-/* Reset some default styles for better consistency */
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -90,8 +89,8 @@ body, h1, h2, h3, p {
 
 body {
     font-family: 'Abhaya Libre', serif;
-    font-size: 16px; /* Base font size for the page */
-    line-height: 1.5; /* Improved line-height for readability */
+    font-size: 16px;
+    line-height: 1.5;
     color: #333; /* Dark text color for better contrast */
 }
 
@@ -130,14 +129,6 @@ p {
 
 /* Style the image card text */
 .image-card-text {
-    position: absolute;
-    bottom: 10px; /* Adjust the positioning of the card text */
-    left: 10px; /* Adjust the positioning of the card text */
-    color: white;
     font-size: 18px; /* Larger font size for card text */
     font-weight: bold;
-    margin: 0;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
 }
-
