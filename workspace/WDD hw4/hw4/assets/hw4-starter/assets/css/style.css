@@ -77,11 +77,14 @@ header {
     color: white;
     margin-left: 20px;
     margin-bottom: 20px;
-    font: 20px;
 }
 
 
 /* PROBLEM 7: Improve the typography and colors of this page! */
+
+body {
+    font-family: 'Abhaya Libre', serif;
+}
 
 #title {
 
