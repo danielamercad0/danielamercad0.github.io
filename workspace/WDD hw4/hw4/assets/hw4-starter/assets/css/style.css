@@ -41,7 +41,7 @@ header {
     float: left;
     overflow: hidden;
     margin-right: 40px;
-    /* PROBLEM 3: Give .image-card the appropriate position type */
+    position: relative;
 
 }
 
