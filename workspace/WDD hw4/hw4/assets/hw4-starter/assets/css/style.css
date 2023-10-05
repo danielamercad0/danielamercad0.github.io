@@ -71,9 +71,9 @@ header {
 
 .image-card-text {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
-
-
-
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     color: white;
 }
 
