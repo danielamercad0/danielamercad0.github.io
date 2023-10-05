@@ -91,25 +91,25 @@ body {
     font-family: 'Abhaya Libre', serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333; /* Dark text color for better contrast */
+    color: #333;
 }
 
 #title {
-    font-size: 32px; /* Larger title font size */
+    font-size: 32px;
     font-weight: bold;
     margin-top: 20px;
-    color: #222; /* Darker title color for emphasis */
+    color: #222;
 }
 
 h1 {
-    font-size: 28px; /* Larger heading font size */
+    font-size: 28px;
     font-weight: bold;
     margin-top: 20px;
     color: #444; /* Darker heading color for emphasis */
 }
 
 h2 {
-    font-size: 24px; /* Slightly smaller subheading font size */
+    font-size: 22px; /* Slightly smaller subheading font size */
     font-weight: bold;
     color: #444; /* Darker subheading color */
     margin-bottom: 10px;
