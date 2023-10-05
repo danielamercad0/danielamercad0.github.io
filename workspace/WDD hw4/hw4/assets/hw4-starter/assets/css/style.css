@@ -105,31 +105,30 @@ h1 {
     font-size: 28px;
     font-weight: bold;
     margin-top: 20px;
-    color: #444; /* Darker heading color for emphasis */
+    color: #444;
 }
 
 h2 {
-    font-size: 23px; /* Slightly smaller subheading font size */
+    font-size: 24px;
     font-weight: bold;
-    color: #444; /* Darker subheading color */
+    color: #444;
     margin-bottom: 10px;
 }
 
 h3 {
-    font-size: 20px; /* Smaller subheading font size */
+    font-size: 20px;
     font-weight: bold;
-    color: #666; /* Darker sub-subheading color */
+    color: #666;
 }
 
 p {
-    font-size: 17px; /* Base paragraph font size */
-    line-height: 1.6; /* Slightly increased line-height for readability */
-    color: #333; /* Darker text color */
-    margin-bottom: 20px; /* Improved spacing between paragraphs */
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-/* Style the image card text */
 .image-card-text {
-    font-size: 18px; /* Larger font size for card text */
+    font-size: 18px;
     font-weight: bold;
 }
