@@ -59,7 +59,7 @@ header {
     top: 0px;
     left: 0px;
     /* PROBLEM 5: What should the opacity be when there is no hover? */
-    opacity: 0.7;
+    opacity: 0;
     transition: 0.3s;
     background-color: navy;
 }
