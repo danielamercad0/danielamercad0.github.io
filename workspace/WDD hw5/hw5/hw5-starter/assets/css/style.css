@@ -7,7 +7,10 @@
     /*  [Problem 2]
         FIXME: Initialize flexbox vertically. Align the text and icons so that they
         are center aligned. */
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .dashboard{
     /*  [Problem 3]
