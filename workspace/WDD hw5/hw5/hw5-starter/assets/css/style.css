@@ -69,8 +69,10 @@
     change the cursor to a pointer. Write the selectors and the styles!
 
     Write your own class identifier. */
-
-
+h2:hover, h3:hover, h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .notifications__notifs .notifications__notifs--box{
     /*  [Problem 11]
