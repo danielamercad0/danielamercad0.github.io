@@ -1,7 +1,7 @@
 .nav{
     /* [Problem 1] 
         FIXME: Set the width of the nav class to 85px. */
-
+    width: 85px;
 }
 .nav--button{
     /*  [Problem 2]
