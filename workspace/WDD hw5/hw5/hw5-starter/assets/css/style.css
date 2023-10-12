@@ -61,8 +61,8 @@
 
     	(Hint: Make sure you only add it to the top left and top
     	right corners. Simply put, the answer is NOT border-radius: 5px.) */
-
-
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 /*  [Problem 10]
     FIXME: When h2, h3, and h4 are hovered over, add an underline and
