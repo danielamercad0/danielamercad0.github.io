@@ -50,8 +50,9 @@
 	bcourses interface. Use this: 0 4px 10px rgba(0,0,0,0.35)
 
 	Write your own class identifier. */
-
-
+.dashboard--classes__box:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+}    
 
 .dashboard--classes__box__image{
     /*  [Problem 9]
