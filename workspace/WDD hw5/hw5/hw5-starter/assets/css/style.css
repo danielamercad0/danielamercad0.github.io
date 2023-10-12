@@ -16,7 +16,7 @@
     /*  [Problem 3]
         FIXME: Add some breathing room! The dashboard portion is a bit tight! 
         (Hint: use padding!) */
-
+    padding: 20px;
 }
 .dashboard--title{
     /*  [Problem 4]
