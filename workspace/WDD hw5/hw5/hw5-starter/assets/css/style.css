@@ -78,7 +78,6 @@ h2:hover, h3:hover, h4:hover {
     /*  [Problem 11]
         FIXME: Turn this element into a flex element and use the correct property
         to align the announcement icon and the text box. */
-        
-
-        
+    display: flex;
+    align-items: center;        
 }
