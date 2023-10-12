@@ -23,7 +23,9 @@
         FIXME: Use flex to add the correct spacing between the "Dashboard" text and
         the three dot button icon that you added previously. Align them to the 
         center of each item. */
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .dashboard--classes{
     /*  [Problem 5]
