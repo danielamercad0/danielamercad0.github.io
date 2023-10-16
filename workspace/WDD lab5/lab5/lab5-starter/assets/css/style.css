@@ -33,7 +33,11 @@ body {
 /* No selectors given :o */
 
 /* Add the necessary code for all of question 2, flexbox-ception, below */
-
+#q2-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
