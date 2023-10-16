@@ -18,9 +18,11 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	padding: 10px;
-	margin: 10px;
 }
-
+.text {
+	display: flex;
+	justify-content: space-evenly;
+}
 
 
 
