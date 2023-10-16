@@ -38,7 +38,10 @@ body {
 	justify-content: space-around;
 	align-items: center;
 }
-
+.q2-big-box {
+	display: flex;
+	flex-direction: column;
+}
 
 
 
