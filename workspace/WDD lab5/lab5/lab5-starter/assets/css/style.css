@@ -21,7 +21,9 @@ body {
 #q1-navbar p{
 	padding: 10px;
 }
-
+#q1-navbar p:hover {
+    text-decoration: underline;
+}
 
 /************/
 /*question 2*/
