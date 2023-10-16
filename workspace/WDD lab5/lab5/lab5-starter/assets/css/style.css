@@ -23,6 +23,7 @@ body {
 }
 #q1-navbar p:hover {
     text-decoration: underline;
+	cursor: pointer;
 }
 
 /************/
