@@ -15,7 +15,7 @@ body {
 	background: #364156;
 	color: white;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 }
 
