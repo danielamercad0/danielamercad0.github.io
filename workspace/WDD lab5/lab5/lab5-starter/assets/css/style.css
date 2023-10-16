@@ -14,7 +14,8 @@ body {
 #q1-navbar {
 	background: #364156;
 	color: white;
-
+	display: flex;
+	justify-content: space-between;
 }
 
 
