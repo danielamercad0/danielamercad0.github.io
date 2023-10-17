@@ -69,6 +69,7 @@
 
 .menu-item {
     color: #ffffff;
+    font-size: 25px;
     margin: 20px 0;
     display: flex;
     justify-content: center;
