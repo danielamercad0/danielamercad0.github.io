@@ -103,6 +103,11 @@
     justify-content: flex-start;
 }
 
+.address img {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .map {
     background-image: url(./img/screen-shot-2023-10-16-at-4-40-1.png);
     background-size: cover;
