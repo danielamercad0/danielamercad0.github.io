@@ -65,6 +65,7 @@
     letter-spacing: 0;
     line-height: normal;
     text-decoration: underline;
+    padding: 5px;
 }
 
 .menu-item {
