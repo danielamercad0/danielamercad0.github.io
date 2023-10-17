@@ -85,4 +85,19 @@
     display: flex;
     justify-content: center;
 }
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item .text-wrapper-8 {
+    flex: 1; /* Allow the text to expand and take up available space */
+    order: 1; /* Set the order of the text */
+}
+
+.menu-item .img {
+    order: 2; /* Set the order of the image */
+}
+
 /* Add styling for other menu items as needed */
