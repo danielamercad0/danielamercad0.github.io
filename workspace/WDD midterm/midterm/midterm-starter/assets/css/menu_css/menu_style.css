@@ -80,13 +80,4 @@
     text-decoration: none; /* Remove underline */
     color: inherit; /* Use the color of the parent element (nav-link) */
   }
-
-.menu-item .img-container .vector img {
-    display: flex;
-    justify-content: center;
-}
-
-.menu-item .img-container {
-    margin-top: 10px; /* Adjust the spacing between text and image */
-}
 /* Add styling for other menu items as needed */
