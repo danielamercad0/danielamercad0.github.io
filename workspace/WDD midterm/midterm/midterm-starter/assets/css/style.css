@@ -114,3 +114,8 @@
     background-position: 50% 50%;
     height: 591px;
 }
+
+.nav-link a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the color of the parent element (nav-link) */
+  }
