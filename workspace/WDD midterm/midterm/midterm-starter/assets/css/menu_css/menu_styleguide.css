@@ -1,0 +1,12 @@
+:root {
+    --pepperoni: rgba(97, 18, 14, 1);
+    --tomato: rgba(202, 37, 33, 1);
+    --delta: rgba(165, 167, 154, 1);
+    --gamboge: rgba(236, 164, 66, 1);
+    --uni-font-family: "SecularOne-Regular", Helvetica;
+    --uni-font-weight: 400;
+    --uni-font-size: 48px;
+    --uni-letter-spacing: 0px;
+    --uni-line-height: normal;
+    --uni-font-style: normal;
+  }  
