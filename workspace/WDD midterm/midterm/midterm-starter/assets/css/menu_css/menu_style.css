@@ -79,4 +79,15 @@
     text-decoration: none; /* Remove underline */
     color: inherit; /* Use the color of the parent element (nav-link) */
   }
+
+  .menu-list {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.menu-list li {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
 /* Add styling for other menu items as needed */
