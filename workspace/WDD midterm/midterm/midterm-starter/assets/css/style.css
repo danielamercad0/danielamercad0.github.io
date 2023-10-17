@@ -116,6 +116,6 @@
 }
 
 .nav-link a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Use the color of the parent element (nav-link) */
+    text-decoration: none;
+    color: inherit;
   }
