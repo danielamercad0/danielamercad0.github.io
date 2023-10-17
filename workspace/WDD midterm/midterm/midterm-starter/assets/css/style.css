@@ -56,12 +56,12 @@
     text-align: center;
 }
 
-.welcome img .vector {
+.welcome .vector img {
     display: flex;
     justify-content: flex-start;
 }
 
-.welcome img .vector-1 {
+.welcome .vector-1 img {
     display: flex;
     justify-content: flex-end;
 }
