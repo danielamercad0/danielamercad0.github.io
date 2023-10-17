@@ -56,9 +56,14 @@
     text-align: center;
 }
 
-.welcome img {
+.welcome img .vector {
     display: flex;
     justify-content: flex-start;
+}
+
+.welcome img .vector-1 {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .cuisine-type {
