@@ -1,0 +1,248 @@
+.home-hi-fi {
+    background-color: #a5a79a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-hi-fi .div {
+    background-color: var(--delta);
+    overflow: hidden;
+    width: 1152px;
+    height: 2273px;
+    position: relative;
+  }
+  
+  .home-hi-fi .overlap {
+    position: absolute;
+    width: 1160px;
+    height: 287px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home-hi-fi .rectangle {
+    position: absolute;
+    width: 1152px;
+    height: 176px;
+    top: 0;
+    left: 0;
+    background-color: #eca442d9;
+  }
+  
+  .home-hi-fi .text-wrapper {
+    position: absolute;
+    width: 1003px;
+    top: 43px;
+    left: 74px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 92px;
+  }
+  
+  .home-hi-fi .navbar {
+    position: absolute;
+    width: 1160px;
+    height: 111px;
+    top: 176px;
+    left: 0;
+  }
+  
+  .home-hi-fi .overlap-group {
+    position: relative;
+    width: 1152px;
+    height: 111px;
+    background-color: #61120eeb;
+  }
+  
+  .home-hi-fi .text-wrapper-2 {
+    position: absolute;
+    width: 209px;
+    height: 55px;
+    top: 25px;
+    left: 105px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 1.62px;
+    line-height: 128px;
+    white-space: nowrap;
+  }
+  
+  .home-hi-fi .text-wrapper-3 {
+    position: absolute;
+    width: 209px;
+    height: 55px;
+    top: 28px;
+    left: 367px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 1.62px;
+    line-height: 128px;
+    white-space: nowrap;
+  }
+  
+  .home-hi-fi .text-wrapper-4 {
+    position: absolute;
+    width: 209px;
+    height: 55px;
+    top: 28px;
+    left: 620px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 1.62px;
+    line-height: 128px;
+    white-space: nowrap;
+  }
+  
+  .home-hi-fi .text-wrapper-5 {
+    position: absolute;
+    width: 209px;
+    height: 55px;
+    top: 28px;
+    left: 868px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 1.62px;
+    line-height: 128px;
+    white-space: nowrap;
+  }
+  
+  .home-hi-fi .text-wrapper-6 {
+    position: absolute;
+    width: 848px;
+    top: 322px;
+    left: 152px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-hi-fi .cuisine-type {
+    position: absolute;
+    width: 970px;
+    top: 451px;
+    left: 91px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-hi-fi .vector {
+    width: 210px;
+    top: 416px;
+    left: 0;
+    position: absolute;
+    height: 2px;
+  }
+  
+  .home-hi-fi .img {
+    width: 210px;
+    top: 1436px;
+    left: 0;
+    position: absolute;
+    height: 2px;
+  }
+  
+  .home-hi-fi .vector-2 {
+    width: 218px;
+    top: 607px;
+    left: 934px;
+    position: absolute;
+    height: 2px;
+  }
+  
+  .home-hi-fi .vector-3 {
+    width: 218px;
+    top: 1636px;
+    left: 934px;
+    position: absolute;
+    height: 2px;
+  }
+  
+  .home-hi-fi .peas {
+    position: absolute;
+    width: 1152px;
+    height: 577px;
+    top: 651px;
+    left: 0;
+    background-image: url(./img/image-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home-hi-fi .rectangle-2 {
+    height: 577px;
+    background-color: #ca252121;
+  }
+  
+  .home-hi-fi .store-hours-monday {
+    position: absolute;
+    width: 657px;
+    height: 181px;
+    top: 1252px;
+    left: 247px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-hi-fi .element-telegraph-ave {
+    position: absolute;
+    width: 489px;
+    height: 200px;
+    top: 1436px;
+    left: 331px;
+    font-family: "Secular One-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-hi-fi .map {
+    position: absolute;
+    width: 1152px;
+    height: 591px;
+    top: 1682px;
+    left: 0;
+    background-image: url(./img/screen-shot-2023-10-16-at-4-40-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .home-hi-fi .rectangle-3 {
+    height: 591px;
+    background-color: #ca252121;
+  }
+  
