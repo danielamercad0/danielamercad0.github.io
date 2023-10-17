@@ -24,7 +24,7 @@
     font-size: 60px;
     text-align: center;
     letter-spacing: 3px;
-    line-height: 92px;
+    line-height: 176px; /* Vertically center the text within the rectangle */
 }
 
 .navbar {
