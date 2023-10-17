@@ -74,4 +74,8 @@
     align-items: center;
 }
 
+.nav-link a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the color of the parent element (nav-link) */
+  }
 /* Add styling for other menu items as needed */
