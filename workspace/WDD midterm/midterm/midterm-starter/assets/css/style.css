@@ -190,7 +190,7 @@
     height: 577px;
     top: 651px;
     left: 0;
-    background-image: url(./img/image-2.png);
+    background-image: url(./img/peas.png);
     background-size: cover;
     background-position: 50% 50%;
   }
@@ -244,5 +244,4 @@
   .home-hi-fi .rectangle-3 {
     height: 591px;
     background-color: #ca252121;
-  }
-  
+  }  
