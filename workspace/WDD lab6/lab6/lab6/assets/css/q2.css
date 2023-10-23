@@ -8,6 +8,17 @@
     }
 }
 
+@keyframes shadowChange {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(0.5);
+        opacity: 0.6;
+    }
+}
+
 #ball {
     display: block;
     height: 150px;
@@ -25,6 +36,7 @@
     background: black;
     opacity: 0.5;
     border-radius: 50%;
+    animation: shadowChange 2s ease infinite;
 }
 
 #ball, #shadow {
