@@ -1,4 +1,12 @@
 /* ADD ANY LINES OF CODE YOU DEEM NECESSARY FOR QUESTION 2*/
+@keyframes bounce {
+    0% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(30px);
+    }
+}
 
 #ball {
     display: block;
@@ -8,6 +16,7 @@
     background: #fd6c2d;
     z-index: 1;
     transform: translateY(-200px);
+    animation: bounce 2s ease infinite;
 }
 
 #shadow {
