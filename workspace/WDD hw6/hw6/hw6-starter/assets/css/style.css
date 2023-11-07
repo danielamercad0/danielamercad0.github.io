@@ -66,20 +66,27 @@
 
 /* TODO: PART 2 - Create wave animation */
 @keyframes wave {
-	0%, 100% {
-		transform: translateY(0);
-	}
-	25%, 75% {
-		transform: translateY(40px);
-	}
+	0%, 100% {transform: translateY(0);}
+	25%, 75% {transform: translateY(40px);}
 }
 
 /* Loader three: Flip */
 /* TODO: PART 3 - Style the flip card */
+.loader.three .flip-tile {
+	height: 100px;
+    width: 100px;
+    background: #F98527;
+	animation: flip 2.6s ease infinite;
+}
 
 /* TODO: PART 3 - Add flip animation to flip card */
 
 /* TODO: PART 3 - Write flip animation */
+@keyframes flip {
+	0% {transform: perspective(300px);}
+	50% {transform: perspective(300px) rotateY(180deg);}
+	100% {transform: perspective(300px) rotateY(180deg) rotateX(180deg);}
+}
 
 /* Loader four: Spin */
 .loader.four .rings {
