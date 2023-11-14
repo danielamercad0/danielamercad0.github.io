@@ -128,3 +128,8 @@ li small {
   color: #ffab40;
   border-color: #ffab40;
 }
+
+.dark-mode #toggleButton:hover {
+  color: #121212;
+  background-color: #ffab40;
+}
