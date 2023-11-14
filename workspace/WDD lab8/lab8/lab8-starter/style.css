@@ -117,6 +117,7 @@ li small {
 
 .dark-mode h1 {
   color: #ffab40;
+  border-bottom-color: #ffab40;
 }
 
 .dark-mode li:hover {
