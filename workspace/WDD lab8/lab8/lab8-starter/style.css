@@ -132,4 +132,5 @@ li small {
 .dark-mode #toggleButton:hover {
   color: #ffab40;
   background-color: transparent;
+  background-size: 105% 150%;
 }
