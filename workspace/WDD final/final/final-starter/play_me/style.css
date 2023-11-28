@@ -30,5 +30,5 @@ body {
 }
 .text::after {
     bottom: -20px;
-    right: 0;
+    right: 25%;
 }
