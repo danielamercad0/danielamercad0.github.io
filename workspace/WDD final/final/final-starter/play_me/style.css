@@ -21,12 +21,12 @@ body {
     content: "";
     position: absolute;
     width: 50%;
-    height: 2px;
+    height: 1px;
     background-color: #ffff;
 }
 .text::before {
     top: -20px;
-    left: 0;
+    left: 50%;
 }
 .text::after {
     bottom: -20px;
