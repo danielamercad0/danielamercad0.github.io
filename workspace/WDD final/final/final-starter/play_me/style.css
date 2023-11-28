@@ -25,10 +25,10 @@ body {
     background-color: #ffff;
 }
 .text::before {
-    top: -20px;
+    top: -30px;
     left: 25%;
 }
 .text::after {
-    bottom: -20px;
+    bottom: -30px;
     right: 25%;
 }
