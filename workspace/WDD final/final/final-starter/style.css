@@ -5,3 +5,8 @@
 body {
     background-color: #293F4F;
 }
+.player {
+    background-color: #C0C0C0;
+    width: 350px;
+    height: 200px;
+}
