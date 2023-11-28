@@ -17,9 +17,10 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: opacity 0.3s;
 }
 .text:hover {
-    color: seashell;
+    opacity: 0.8;
 }
 .text::before,
 .text::after {
