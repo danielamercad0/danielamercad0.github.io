@@ -100,5 +100,8 @@ body {
     position: absolute;
     right: 45px;
     bottom: 30px;
+    border: none;
     border: 10.5px solid #CB2626;
+    outline: none;
+    cursor: pointer;
 }
