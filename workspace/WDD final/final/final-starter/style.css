@@ -70,3 +70,13 @@ body {
     top: -15px;
     left: -15px;
 }
+.tone-arm:before {
+    content: "";
+    width: 9px;
+    height: 60px;
+    background-color: #ffff;
+    position: absolute;
+    transform: rotate(30deg);
+    bottom: -54px;
+    right: 15px;
+}
