@@ -27,3 +27,19 @@ body {
     align-items: center;
     justify-content: center;
 }
+.record:before, .record:after {
+    position: absolute;
+    content: "";
+    border: 5px solid transparent;
+    border-top-color: #2c2424;
+    border-bottom-color: #2c2424;
+    border-radius: 50%;
+}
+.record:before {
+    width: 135px;
+    height: 135px;
+}
+.record:after {
+    width: 95px;
+    height: 95px;
+}
