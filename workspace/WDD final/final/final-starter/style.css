@@ -80,3 +80,15 @@ body {
     bottom: -54px;
     right: 15px;
 }
+.tone-arm:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 15px;
+    border-top: 27px solid #b2aea6;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    top: 162px;
+    right: 18.75px;
+    transform: rotate(30deg);
+}
