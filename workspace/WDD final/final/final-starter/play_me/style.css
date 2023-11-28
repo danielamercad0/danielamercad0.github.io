@@ -1,5 +1,6 @@
 body {
     background-color: #293F4F;
+    margin: 0; /* k */
 }
 .text-wrapper {
     display: flex;
@@ -15,20 +16,21 @@ body {
     font-family: 'Vast Shadow', serif;
     font-size: 70px;
     text-align: center;
+    position: relative; /* k */
 }
 .text::before,
 .text::after {
     content: "";
     position: absolute;
     width: 50%;
-    height: 1px;
+    height: 2px;
     background-color: #ffff;
+    top: 50%; /* k */
+    transform: translateY(-50%); /* k */
 }
 .text::before {
-    top: -10px;
-    left: 0;
+    left: -25%;
 }
 .text::after {
-    bottom: -10px;
-    right: 0;
+    right: -25%;
 }
