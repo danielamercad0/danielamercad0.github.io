@@ -29,6 +29,7 @@ body {
     width: 50%;
     height: 1px;
     background-color: #ffff;
+    opacity: 1;
 }
 .text::before {
     top: -50px;
@@ -37,8 +38,4 @@ body {
 .text::after {
     bottom: -50px;
     right: 25%;
-}
-.text:hover::before,
-.text:hover::after {
-    opacity: 1;
 }
