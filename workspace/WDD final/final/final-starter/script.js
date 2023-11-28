@@ -1,15 +1,15 @@
 let state = false;
 let button = document.querySelector(".button");
 let record = document.querySelector(".record");
-let toneArm = document.querySelector(".tone-arm");
+let arm = document.querySelector(".arm");
 
 button.addEventListener("click", () => {
     if (state == false) {
         record.classList.add("on");
-        toneArm.classList.add("play");
+        arm.classList.add("play");
     } else {
         record.classList.remove("on");
-        toneArm.classList.remove("play");
+        arm.classList.remove("play");
     }
     state = !state;
 });

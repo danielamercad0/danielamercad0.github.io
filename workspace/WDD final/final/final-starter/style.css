@@ -50,7 +50,7 @@ body {
     border: 30px solid #BF8D52;
     border-radius: 50%;
 }
-.tone-arm {
+.arm {
     width: 9px;
     height: 135px;
     background-color: #ffff;
@@ -70,7 +70,7 @@ body {
     top: -15px;
     left: -15px;
 }
-.tone-arm:before {
+.arm:before {
     content: "";
     width: 9px;
     height: 60px;
@@ -80,7 +80,7 @@ body {
     bottom: -54px;
     right: 15px;
 }
-.tone-arm:after {
+.arm:after {
     content: "";
     position: absolute;
     height: 0;
