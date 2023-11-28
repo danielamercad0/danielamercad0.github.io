@@ -50,3 +50,23 @@ body {
     border: 30px solid #BF8D52;
     border-radius: 50%;
 }
+.tone-arm {
+    width: 9px;
+    height: 135px;
+    background-color: #ffff;
+    position: absolute;
+    top: 38px;
+    right: 143px;
+    transition: 1s;
+    transform-origin: top;
+}
+.control {
+    background-color: #000000;
+    width: 26px;
+    height: 26px;
+    border: 15px solid #2c2c2c;
+    border-radius: 50%;
+    position: absolute;
+    top: -24px;
+    left: -24px;
+}
