@@ -16,3 +16,19 @@ body {
     font-size: 70px;
     text-align: center;
 }
+.text::before,
+.text::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  background-color: #ffff;
+}
+.text::before {
+  top: 0;
+  left: 0;
+}
+.text::after {
+  bottom: 0;
+  right: 0;
+}
