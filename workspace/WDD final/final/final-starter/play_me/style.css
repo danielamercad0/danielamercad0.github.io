@@ -1,6 +1,11 @@
 body {
     background-color: #293F4F;
 }
+.text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .text {
     color: #ffff;
 }
