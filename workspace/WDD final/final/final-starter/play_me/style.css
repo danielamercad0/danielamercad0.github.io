@@ -18,6 +18,9 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+.text:hover {
+    color: seashell;
+}
 .text::before,
 .text::after {
     content: "";
