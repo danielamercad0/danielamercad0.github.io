@@ -25,7 +25,7 @@ body {
     width: 50%;
     height: 1px;
     background-color: #ffff;
-    opacity: 1;
+    opacity: 100%;
 }
 .text::before {
     top: -50px;
