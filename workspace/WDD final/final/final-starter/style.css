@@ -105,3 +105,16 @@ body {
     outline: none;
     cursor: pointer;
 }
+.play {
+    transform: rotate(30deg);
+    transform-origin: top;
+    transition: 1s;
+}
+.on {
+    animation: spin 3s 1s linear infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
