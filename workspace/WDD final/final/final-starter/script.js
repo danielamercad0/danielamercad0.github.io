@@ -1,9 +1,9 @@
 let state = false;
-let btn = document.querySelector(".btn");
+let button = document.querySelector(".button");
 let record = document.querySelector(".record");
 let toneArm = document.querySelector(".tone-arm");
 
-btn.addEventListener("click", () => {
+button.addEventListener("click", () => {
     if (state == false) {
         record.classList.add("on");
         toneArm.classList.add("play");
