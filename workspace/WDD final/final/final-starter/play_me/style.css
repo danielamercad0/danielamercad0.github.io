@@ -18,17 +18,17 @@ body {
 }
 .text::before,
 .text::after {
-  content: "";
-  position: absolute;
-  width: 50%;
-  height: 1px;
-  background-color: #ffff;
-  top: 50%;
-  transform: translateY(-50%);
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: #ffff;
 }
 .text::before {
-  left: 0;
+    top: -10px;
+    left: 0;
 }
 .text::after {
-  right: 0;
+    bottom: -10px;
+    right: 0;
 }
