@@ -40,10 +40,10 @@ s5.onclick = function() {
 }
 
 // strip outfit
-let strip = /* get #strip-button */
+let strip = document.getElementById('strip-button');
 strip.onclick = function() {
-	/* call the function you created to hide all the outfits */
-	/* show #body */
+	hideOutfits();
+	showBody();
 };
 
 function hideBody() {
@@ -61,4 +61,9 @@ function hideOutfits() {
 function showOutfit(outfitId) {
 	let outfit = document.getElementById(outfitId);
 	outfit.style.display = 'block';
+}
+
+function showBody() {
+	let body = document.getElementById('body');
+	body.style.display = 'block';
 }
