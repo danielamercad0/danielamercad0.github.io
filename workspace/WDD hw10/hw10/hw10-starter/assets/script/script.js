@@ -1,28 +1,43 @@
 // s1 outfit
-let s1 = /* get #s1 outfit */
+let s1 = document.getElementById('s1');
 /* the process: */
 s1.onclick = function() {
-	/* 1. hide #body (set display to none)
-	/* 2. call the function you created to hide all the outfits 
-	(remember: get the list of .outfit elements and use a for loop to hide each outfit)
-	/* 3. show #o1 outfit (set display to block)*/
+	hideBody();
+	hideOutfits();
+	showOutfit('o1');
 };
 
 // s2 outfit
-/* get #s2 outfit */
-/* repeat process */
+let s2 = document.getElementById('s2');
+s2.onclick = function() {
+	hideBody();
+	hideOutfits();
+	showOutfit('o2');
+}
 
 // s3 outfit
-/* get #s3 outfit */
-/* repeat process */
+let s3 = document.getElementById('s3');
+s3.onclick = function() {
+	hideBody();
+	hideOutfits();
+	showOutfit('o3');
+}
 
 // s4 outfit
-/* get #s4 outfit */
-/* repeat process */
+let s4 = document.getElementById('s4');
+s4.onclick = function() {
+	hideBody();
+	hideOutfits();
+	showOutfit('o4');
+}
 
 // s5 outfit
-/* get #s5 outfit */
-/* repeat process */
+let s5 = document.getElementById('s5');
+s5.onclick = function() {
+	hideBody();
+	hideOutfits();
+	showOutfit('o5');
+}
 
 // strip outfit
 let strip = /* get #strip-button */
@@ -30,3 +45,20 @@ strip.onclick = function() {
 	/* call the function you created to hide all the outfits */
 	/* show #body */
 };
+
+function hideBody() {
+	let body = document.getElementById('body');
+	body.style.display = 'none';
+}
+
+function hideOutfits() {
+	let outfits = document.getElementsByClassName('outfit');
+	for (let i = 0; i < outfits.length; i++) {
+		outfits[i].style.display = 'none';
+	}
+}
+
+function showOutfit(outfitId) {
+	let outfit = document.getElementById(outfitId);
+	outfit.style.display = 'block';
+}
